@@ -1,0 +1,88 @@
+body {
+  background-color: #efe6f7;
+  font-family: helvetica;
+}
+
+.spacer{
+  height: 20px;
+  background-color: #efe6f7;
+}
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+#maincontainer{
+width: 1024px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+background-color: #ffffff;
+}
+
+#topsection{
+background: #efe6f7;
+height: 20px; /*Height of top section*/
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin-left: 300px; /*Set left margin to LeftColumnWidth*/
+}
+
+#leftcolumn{
+float: left;
+width: 186px; /*Width of left column*/
+margin-left: -1024px; /*Set left margin to -(MainContainerWidth)*/
+background: #4c296d;
+color: #ffffff;
+height: 100vh;
+padding: 50px 45px 0 70px;
+}
+
+footer{
+clear: left;
+width: 100%;
+background: #c6c6c6;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+
+header h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+#contentwrapper #contentcolumn header{
+  padding: 15px;
+  background-color: #9d76c1;
+}
+
+.aspectslist{
+  margin-top: 20px;
+}
+
+summary{
+  padding: 5px 0 5px 15px;
+  background-color: #eeeeee;
+}
