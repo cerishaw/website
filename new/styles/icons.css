@@ -1,0 +1,71 @@
+/* =============================================================================
+  ICONS - COMMON
+============================================================================= */
+/**
+ * Icon common styles.
+ *
+ * Overflow set to
+ * hidden for precautions, and make sure to set the font size to 0 and the text
+ * indent to -9999px. This allows us to actually include text in the markup
+ * which will be good for screen readers and accessibility purposes.
+ */
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 25px;
+  height: 25px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+.icon-mono {
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+/* twitter */
+.icon-mono.twitter {
+  background: url("../images/twitter.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-mono.twitter:hover {
+  background: url("../images/twitter_white.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* linkedin */
+.icon-mono.linkedin {
+  background: url("../images/linkedin.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-mono.linkedin:hover {
+  background: url("../images/linkedin_white.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* github */
+.icon-mono.github {
+  background: url("../images/github.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-mono.github:hover {
+  background: url("../images/github_white.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
